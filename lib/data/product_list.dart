@@ -1,6 +1,6 @@
 import 'package:testb6/domain/product.dart';
 
-List productList = [
+List<Product> productList = [
   Product(
     name: 'Product 1',
     description: 'Description 1',
@@ -22,3 +22,5 @@ List productList = [
     price: 100.0,
   ),
 ];
+
+List<Product> cartList = [];
